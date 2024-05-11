@@ -1,0 +1,62 @@
+
+/*Body*/
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/*Nav*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(88, 88, 88);
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.navbar a:hover{
+    background-color: rgb(39, 39, 39);
+}
+
+.navbar li {
+    font-size: larger;
+
+}
+
+/*Main Content*/
+ .maincontainer img {
+    padding-top: 25px;
+    border-radius: 35px;
+}
+
+
+
+
+  /*Footer*/
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(88, 88, 88);
+    padding: 15px;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color:#00d9ff
+}
