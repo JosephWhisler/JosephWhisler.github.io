@@ -20,7 +20,7 @@
 
 .navbar a{
     color: white;
-    padding: 15px;
+    padding: 5px;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -32,31 +32,59 @@
 
 .navbar li {
     font-size: larger;
-
+    margin-bottom: 35px;
 }
 
 /*Main Content*/
- .maincontainer img {
-    padding-top: 25px;
+
+.maincontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    grid-gap: 5px; 
+}
+
+
+.boxA {
+    padding-left: 180px;
+    padding-right: 75px;
+    grid-column: 1/2;
+}
+
+
+.boxB {
+   
+    grid-column: 2/3;
+}
+
+
+.boxBimg {
+    box-shadow: 1px 1px 1px 1px rgb(39, 39, 39);
     border-radius: 35px;
+}
+
+.para {
+
+    color: rgb(97, 97, 97); 
+      
 }
 
 
 
 
   /*Footer*/
-
-footer{
+  .footer {
+    grid-column: 1 / -1; 
     color: white;
     text-align: center;
     background-color: rgb(88, 88, 88);
-    padding: 15px;
+    padding: 25px;
+    margin-top: 35px;
 }
 
-footer a{
+.footer a{
     color: black;
 }
 
-footer a:hover{
+.footer a:hover{
     color:#00d9ff
 }
