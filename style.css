@@ -20,19 +20,20 @@
 
 .navbar a{
     color: white;
-    padding: 5px;
     text-decoration: none;
     text-align: center;
     display: block;
+    padding: 15px;
 }
 
 .navbar a:hover{
     background-color: rgb(39, 39, 39);
+    padding: 15px;
 }
 
 .navbar li {
     font-size: larger;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 /*Main Content*/
@@ -41,6 +42,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr ; 
     grid-gap: 5px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -58,6 +61,7 @@
 
 
 .boxBimg {
+    border: 3px solid rgb(39, 39, 39);
     box-shadow: 1px 1px 1px 1px rgb(39, 39, 39);
     border-radius: 35px;
 }
@@ -87,4 +91,51 @@
 
 .footer a:hover{
     color:#00d9ff
+}
+
+/*Contact */
+.container {
+    
+    width: 41%;
+    background-color: rgb(136, 136, 136);
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.submit {
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.submitcontainer {
+    text-align: center;
+    
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: rgb(226, 226, 226);  
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(58, 58, 58);
+  
+}
+
+/*Thanks*/
+
+.thankscontainer {
+    text-align: center;
+    width: 41%;
+    background-color: rgb(136, 136, 136);
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 25px;
 }
